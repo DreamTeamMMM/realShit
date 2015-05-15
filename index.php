@@ -33,7 +33,7 @@ function phpFunction(){
 	<!-- För rendering-->
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	<script src="sources/hand.js"></script>
-	<script href="http://cdn.babylonjs.com/2-0/babylon.js"></script>
+	<script src="http://cdn.babylonjs.com/2-0/babylon.js"></script>
 	<script src="script/geoLoc.js"></script>
 	<script src="script/pathFinder.js"></script>
 	<!-- <link   href='style.css' rel='stylesheet'/-->
