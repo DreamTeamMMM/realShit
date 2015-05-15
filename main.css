@@ -1,0 +1,156 @@
+
+/*.navbar {
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+.navbar li {
+	display: inline;
+	padding: 15px 10px;
+}*/
+
+/*#scene {
+	padding: 15px;
+}*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: absolute;
+}
+
+.menu-item {
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+}
+
+.signup_box, .login_box {
+	display: inline-block;
+	background-color: white;
+	margin-left: auto;
+    margin-right: auto; 
+	border: 2px solid darkred;
+	border-radius: 10px;
+	padding: 10px;
+	z-index: 100;
+}
+
+.formular {
+    text-align: center;
+	height: 100%;
+	width: 100%;
+	background-color:rgba(122,122,122,0.5);	
+	/*border: 2px solid darkred;
+	border-radius: 10px;*/
+	padding: 10px;
+	position: absolute;
+}
+
+.menu {
+	background-color: white;
+  	left: -285px;  /* start off behind the scenes */
+  	height: 80%;
+  	position: fixed;
+  	width: 285px;
+  	z-index:3;
+  	padding-left: 20px;
+}
+#room-number, #room-to-room, #room-free, #room-information {
+	background-color: white;
+	border: 2px solid darkred;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 10px;
+	z-index: 100;
+}
+
+#search ul div {
+	border: 2px solid black;
+	margin: 5px;
+	padding: 5px;	
+	/*webkit-padding-start: 5px;*/
+}
+
+#information, #search {
+	margin: 10px;
+	position: relative;
+	left:1%;
+	top:1%;
+	z-index: 2;
+}
+#user {
+	margin: 10px;
+	position: relative;
+	right:1%;
+	top:1%;
+	z-index: 2;
+}
+/*.canvas-container {
+	width: 80%;
+	height: 80%;
+}*/
+
+#canvas { 
+	/*display:block; */
+	margin:1em auto;
+	border:1px solid black; 
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	/*z-index: 1;*/
+}
+#nocanvas { 
+	/*display:block; */
+	/*margin:1em auto;
+	border:1px solid black; */
+	margin:1em auto;
+	border:1px solid black; 
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	/*z-index: 1;*/
+}
+
+
+@media 	(max-width: 768px){ 
+	 /*.navbar {
+		text-transform: uppercase;
+		/*background-color: blue;*/
+		/*background-color: canvasToFullDisplay;*/
+	/*} 
+	.navbar li {
+		display: inline;
+		padding: 20px 20px;
+	}
+	#uu_logo {
+		height: 30%;
+		width: 30%;
+	}
+	body {
+		/*background-color: blue;
+	} */
+}
+@media (min-width: 769px){ 
+	/*.navbar {
+		text-transform: uppercase;
+		/*background-color: green;*/
+	/*}
+	.navbar li {
+		display: inline;
+		padding: 15px 10px;
+	}
+	#uu_logo {
+		height: 40%;
+		width: 40%;
+	}
+	body {
+		/*background-color: green;
+	}*/
+}
