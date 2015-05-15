@@ -86,7 +86,7 @@ function phpFunction(){
 			</div>
 
 			<!-- Menu -->
-			<div class="menu-container">
+			<div class="menu-container pre-scrollable">
 				<ul>
 					<li>
 						Search room:
