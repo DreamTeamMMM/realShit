@@ -82,6 +82,16 @@ INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Bu
 INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('28', 'P28', 'Pollacks', 'P', '1', '1', '19');
 INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('29', 'P29', 'Pollacks', 'P', '1', '1', '19');
 INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('30', 'P30', 'Pollacks', 'P', '1', '1', '19');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('31', 'P31', 'Pollacks', 'P', '1', '1', '19');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('32', 'P32', 'Pollacks', 'P', '1', '1', '19');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('33', 'P33', 'Pollacks', 'P', '1', '1', '19');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('34', 'P34', 'Pollacks', 'P', '1', '1', '19');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('35', 'P35', 'Pollacks', 'P', '1', '1', '19');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('36', 'P36', 'Pollacks', 'P', '1', '1', '19');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('37', 'P37', 'Pollacks', 'P', '1', '1', '19');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('38', 'P38', 'Pollacks', 'P', '1', '1', '19');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('39', 'P39', 'Pollacks', 'P', '1', '1', '19');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('40', 'P40', 'Pollacks', 'P', '1', '1', '19');
 
 
 -- lägg till tider
