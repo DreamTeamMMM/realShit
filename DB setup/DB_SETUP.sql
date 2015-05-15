@@ -52,15 +52,15 @@ DELIMITER ;
 
 
 -- lägg till rum
-INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('1', 'P1', 'Pollacks', 'P', '1', '1', '11');
-INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('2', 'P2', 'Pollacks', 'P', '1', '1', '12');
-INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('3', 'P3', 'Pollacks', 'P', '1', '1', '13');
-INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('4', 'P4', 'Pollacks', 'P', '1', '1', '14');
-INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('5', 'P5', 'Pollacks', 'P', '1', '1', '15');
-INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('6', 'P6', 'Pollacks', 'P', '1', '1', '16');
-INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('7', 'P7', 'Pollacks', 'P', '1', '1', '17');
-INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('8', 'P8', 'Pollacks', 'P', '1', '1', '18');
-INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('9', 'P9', 'Pollacks', 'P', '1', '1', '19');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('1' , 'P1' , 'Pollacks', 'P', '1', '1', '11');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('2' , 'P2' , 'Pollacks', 'P', '1', '1', '12');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('3' , 'P3' , 'Pollacks', 'P', '1', '1', '13');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('4' , 'P4' , 'Pollacks', 'P', '1', '1', '14');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('5' , 'P5' , 'Pollacks', 'P', '1', '1', '15');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('6' , 'P6' , 'Pollacks', 'P', '1', '1', '16');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('7' , 'P7' , 'Pollacks', 'P', '1', '1', '17');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('8' , 'P8' , 'Pollacks', 'P', '1', '1', '18');
+INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('9' , 'P9' , 'Pollacks', 'P', '1', '1', '19');
 INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('10', 'P10', 'Pollacks', 'P', '1', '1', '19');
 INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('11', 'P11', 'Pollacks', 'P', '1', '1', '19');
 INSERT INTO `Campus`.`Room` (`Room_ID`, `RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`) VALUES ('12', 'P12', 'Pollacks', 'P', '1', '1', '19');
