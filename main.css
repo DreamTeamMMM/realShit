@@ -12,6 +12,27 @@
 	padding: 15px;
 }*/
 
+.presented-room-row .roomname-icon> p {
+	font-size: 20px;
+	margin: 0px;
+}
+
+.roomname-icon {
+	margin-top: 5px;
+	border-bottom: 2px solid darkred;
+	background-color: white;
+	padding: 2px;
+	margin: 2px;
+}
+
+.presented-room-row {
+	background-color: white;
+	border: 2px solid darkred;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 5px;
+}
+
 html, body {
     margin: 0;
     padding: 0;

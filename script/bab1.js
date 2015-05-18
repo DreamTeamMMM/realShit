@@ -1,5 +1,4 @@
 if (BABYLON.Engine.isSupported()) {
- 
             var canvas = document.getElementById("canvas");
             var engine = new BABYLON.Engine(canvas, true);
 
@@ -9,11 +8,10 @@ if (BABYLON.Engine.isSupported()) {
                     engine.resize();
                 }
             },false);
-
             //imports the .json file containing the path information
             $.getJSON("script/pathHelp.json", function(data){
             helpPath=data.plan2;
-           // console.log(1)
+            //console.log(1, helpPath)
             });
 
     //imports the .babylon object created with blender

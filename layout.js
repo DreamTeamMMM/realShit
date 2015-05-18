@@ -49,6 +49,21 @@ var main = function() {
 	        event.preventDefault();
 	});
 
+	$('#txtHint').on('click', '.presented-room-row',  function () {
+		if($(this).children('.room-description').hasClass('hidden')) {
+			$(this).children('.room-description').removeClass('hidden')
+			$(this).children('.roomname-icon').children('p').removeClass('glyphicon-triangle-right')
+			$(this).children('.roomname-icon').children('p').addClass('glyphicon-triangle-bottom')
+			//$(this).children('.roomname-icon').addClass('roomname-icon-bottom')
+
+
+		} else {
+			$(this).children('.room-description').addClass('hidden')
+			$(this).children('.roomname-icon').children('p').removeClass('glyphicon-triangle-bottom')
+			$(this).children('.roomname-icon').children('p').addClass('glyphicon-triangle-right')
+			//$(this).children('.roomname-icon').removeClass('roomname-icon-bottom')
+		}
+	});
 //------------------------------------------//
 // Stop dropdown closing
 //Taken from: http://stackoverflow.com/questions/10863821/bootstrap-dropdown-closing-when-clicked
