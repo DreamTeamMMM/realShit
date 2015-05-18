@@ -1,6 +1,5 @@
 <?php include "base.php"; ?>
 
-
 <!-- kolla om inloggad -->
 
 <?php 
@@ -37,18 +36,18 @@ function phpFunction(){
 	<script src="script/geoLoc.js"></script>
 	<script src="script/pathFinder.js"></script>
 	<!-- <link   href='style.css' rel='stylesheet'/-->
-
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script>
-		var test = function() {
+		var loggedInSession = function() {
 			var result = "<?php echo phpFunction() ?>";
 			if (result === "true") {
 				$('#memberarea-button').removeClass('hidden')
 				$('#loggin-button').addClass('hidden')
 				$('#signup-button').addClass('hidden')
 			}
-			console.log(result);}
-			$(document).ready(test);
+			//console.log(result);
+		}
+			$(document).ready(loggedInSession);
 		</script>
 		<script>
 			function showRoom(str) {
@@ -57,48 +56,44 @@ function phpFunction(){
 					return;
 				} else { 
 					if (window.XMLHttpRequest) {
-		            // code for IE7+, Firefox, Chrome, Opera, Safari
-		            xmlhttp = new XMLHttpRequest();
-		        } else {
-		            // code for IE6, IE5
-		            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-		        }
-		        xmlhttp.onreadystatechange = function() {
-		        	if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-		        		document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
-		        	}
-		        }
-		        xmlhttp.open("GET","searchRoom.php?q="+str,true);
-		        xmlhttp.send();
-		    }
-		}
+						// code for IE7+, Firefox, Chrome, Opera, Safari
+						xmlhttp = new XMLHttpRequest();
+					} else {
+						// code for IE6, IE5
+						xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+					}
+					xmlhttp.onreadystatechange = function() {
+						if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+							document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
+						}
+					}
+					xmlhttp.open("GET","searchRoom.php?q="+str,true);
+					xmlhttp.send();
+					//var javaScriptVar = "<?php echo $testvar; ?>";
+		    	}
+			}
 	</script>
-	
-	</head>
-	<body>	
+</head>
+<body>
+	<script src="layout.js"></script>
+	<!-- Single button -->
+	<div class="menu">
+		<!-- Menu icon -->
+		<div class="icon-close">
+			<img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+		</div>
 
-		<script src="layout.js"></script>
-		<!-- Single button -->
-		<div class="menu">
-			<!-- Menu icon -->
-			<div class="icon-close">
-				<img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
-			</div>
-
-			<!-- Menu -->
-			<div class="menu-container pre-scrollable">
-				<ul>
-					<li>
-						Search room:
-						<div id="room-number">
-							<form id="roomname-form">
-								Room name:<br>
-								<input id="Rname" type="text" name="roomname" oninput="showRoom(this.value)">
-								<br>
-							</form>
-					<!--	<button type="button" class="btn btn-default">
-							Search
-						</button> -->
+		<!-- Menu -->
+		<div class="menu-container pre-scrollable">
+			<ul>
+				<li>
+					Search room:
+					<div id="room-number">
+						<form id="roomname-form">
+							Room name:<br>
+							<input id="Rname" type="text" name="roomname" oninput="showRoom(this.value)">
+							<br>
+						</form>
 					</div>
 				</li>
 				Search beetween rooms:
@@ -106,11 +101,9 @@ function phpFunction(){
 					<div id="room-to-room">
 						<form>
 							Start room:<br>
-							<!--input type="text" name="start-roomname"-->
-							<input type="text" name="start" id="txt-start">
+							<input type="text" name="start" id="txt-start" value="P1">
 							<br>
 							End room:<br>
-							<!--input type="text" name="end-roomname"-->
 							<input type="text" name="end" id="txt-end" onkeydown="if (event.keyCode == 13) document.getElementById('startNav').click()">
 							<br>
 						</form>
@@ -134,14 +127,6 @@ function phpFunction(){
 				</li>
 				Room information
 				<li>
-				<script>
-					var rooooms;				
-				</script>
-<script>
-						$('#txtHint').change(function(){
-						//console.log(rooooms);
-						console.log("apppppppa")})
-						</script>
 					<div id="room-information">
 						<!--?php include "db-search.php"; ?-->
 						<br>
@@ -226,10 +211,9 @@ function phpFunction(){
 		});
 		
 		$('#txtHint').on('DOMNodeInserted',function(){
-		console.log("appppppppa", document.getElementById('Rname').value);
-		if(freeRoomList !== undefined){
-    		hideFreeRooms();
-		};	
+			if(freeRoomList !== undefined){
+				hideFreeRooms();
+			};	
 		//	console.log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
 			//console.log("DOMNodeInserted length", $(".emptyRooms").length)
 			if ($(".emptyRooms").length !== 0) {
@@ -259,9 +243,7 @@ function phpFunction(){
 		})
 	</script>
 	<script>
-	var testtest;
 		function showEmptyRoom() {
-
 			if (window.XMLHttpRequest) {
 		            // code for IE7+, Firefox, Chrome, Opera, Safari
 		            xmlhttp = new XMLHttpRequest();
@@ -277,9 +259,9 @@ function phpFunction(){
 		        }
 		        xmlhttp.open("GET","searchEmptyRoom.php",true);
 		      //  console.log(xmlhttp.open("GET","searchEmptyRoom.php",true);)
-		        xmlhttp.send();
+		      xmlhttp.send();
 		       // console.log(xmlhttp.send();)
-		       	var ta = document.getElementsByClassName("testsomfan");
+		    //   	var ta = document.getElementsByClassName("testsomfan");
 			//	console.log("---------------getElementBy----------------------")
 		     //  	console.log(document.getElementsByClassName("testsomfan"))
 		     //  	console.log(typeof document.getElementsByClassName("testsomfan"))
@@ -299,8 +281,8 @@ function phpFunction(){
 		     //   console.log("håkan")
 		     //   console.log(allRoomList)
 		    //displayFreeRooms(scene, allRoomList);
-		    }
-		</script>
+		}
+	</script>
 	<script src="script/bab1.js"></script>
 
 
