@@ -172,6 +172,8 @@ INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `F
 INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1338', 'Pollacks', 'P', '1', '3', '38', '38');
 INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1339', 'Pollacks', 'P', '1', '3', '39', '39');
 INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1340', 'Pollacks', 'P', '1', '3', '40', '40');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1341', 'Pollacks', 'P', '1', '3', '41', '40');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1342', 'Pollacks', 'P', '1', '3', '42', '40');
 
 -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Våning 4 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1401', 'Pollacks', 'P', '1', '4', '01', '01');
@@ -214,6 +216,48 @@ INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `F
 INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1438', 'Pollacks', 'P', '1', '4', '38', '38');
 INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1439', 'Pollacks', 'P', '1', '4', '39', '39');
 INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1440', 'Pollacks', 'P', '1', '4', '40', '40');
+
+-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Våning 5 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1501', 'Pollacks', 'P', '1', '5', '01', '01');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1502', 'Pollacks', 'P', '1', '5', '02', '02');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1503', 'Pollacks', 'P', '1', '5', '03', '03');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1504', 'Pollacks', 'P', '1', '5', '04', '04');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1505', 'Pollacks', 'P', '1', '5', '05', '05');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1506', 'Pollacks', 'P', '1', '5', '06', '06');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1507', 'Pollacks', 'P', '1', '5', '07', '07');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1508', 'Pollacks', 'P', '1', '5', '08', '08');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1509', 'Pollacks', 'P', '1', '5', '09', '09');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1510', 'Pollacks', 'P', '1', '5', '10', '10');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1511', 'Pollacks', 'P', '1', '5', '11', '11');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1512', 'Pollacks', 'P', '1', '5', '12', '12');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1513', 'Pollacks', 'P', '1', '5', '13', '13');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1514', 'Pollacks', 'P', '1', '5', '14', '14');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1515', 'Pollacks', 'P', '1', '5', '15', '15');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1516', 'Pollacks', 'P', '1', '5', '16', '16');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1517', 'Pollacks', 'P', '1', '5', '17', '17');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1518', 'Pollacks', 'P', '1', '5', '18', '18');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1519', 'Pollacks', 'P', '1', '5', '19', '19');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1520', 'Pollacks', 'P', '1', '5', '20', '20');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1521', 'Pollacks', 'P', '1', '5', '21', '21');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1522', 'Pollacks', 'P', '1', '5', '22', '22');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1523', 'Pollacks', 'P', '1', '5', '23', '23');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1524', 'Pollacks', 'P', '1', '5', '24', '24');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1525', 'Pollacks', 'P', '1', '5', '25', '25');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1526', 'Pollacks', 'P', '1', '5', '26', '26');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1527', 'Pollacks', 'P', '1', '5', '27', '27');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1528', 'Pollacks', 'P', '1', '5', '28', '28');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1529', 'Pollacks', 'P', '1', '5', '29', '29');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1530', 'Pollacks', 'P', '1', '5', '30', '30');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1531', 'Pollacks', 'P', '1', '5', '31', '31');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1532', 'Pollacks', 'P', '1', '5', '32', '32');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1533', 'Pollacks', 'P', '1', '5', '33', '33');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1534', 'Pollacks', 'P', '1', '5', '34', '34');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1535', 'Pollacks', 'P', '1', '5', '35', '35');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1536', 'Pollacks', 'P', '1', '5', '36', '36');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1537', 'Pollacks', 'P', '1', '5', '37', '37');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1538', 'Pollacks', 'P', '1', '5', '38', '38');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1539', 'Pollacks', 'P', '1', '5', '39', '39');
+INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1540', 'Pollacks', 'P', '1', '5', '40', '40');
 
 -- lägg till AKA
 INSERT INTO `Campus`.`RoomAKA` (`Room_ID`, `AKA`) VALUES ('42', 'Skrubben');
