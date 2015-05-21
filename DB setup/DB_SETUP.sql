@@ -216,8 +216,8 @@ INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `F
 INSERT INTO `Campus`.`Room` (`RoomName`, `Campus`, `CampusShort`, `Building`, `Floor`, `RoomNumber`, `NumberOfPlaces`) VALUES ('P1440', 'Pollacks', 'P', '1', '4', '40', '40');
 
 -- lägg till AKA
-INSERT INTO `Campus`.`RoomAKA` (`Room_ID`, `AKA`) VALUES ('2', 'Skrubben');
-INSERT INTO `Campus`.`RoomAKA` (`Room_ID`, `AKA`) VALUES ('4', 'Lunchrummet');
+INSERT INTO `Campus`.`RoomAKA` (`Room_ID`, `AKA`) VALUES ('42', 'Skrubben');
+INSERT INTO `Campus`.`RoomAKA` (`Room_ID`, `AKA`) VALUES ('44', 'Lunchrummet');
 
 -- lägg till tider
 -- - - - - - - - - - - - - - - - - - - - - - - 1 - - - - - - - - - - - - - - - - - - - - - -
