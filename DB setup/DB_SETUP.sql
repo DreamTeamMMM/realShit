@@ -278,13 +278,16 @@ INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VAL
 INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('7' , '2015-05-18', '15:15:00', '17:00:00');
 INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('8' , '2015-05-18', '15:15:00', '17:00:00');
 INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('9' , '2015-05-19', '15:15:00', '17:00:00');
-INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('10', '2015-05-19', '15:15:00', '17:00:00');
+INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('10', '2015-05-21', '15:15:00', '17:00:00');
+INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('10', '2015-05-21', '13:15:00', '15:00:00');
+INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('10', '2015-05-21', '08:15:00', '10:00:00');
 INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('11', '2015-05-19', '15:15:00', '17:00:00');
 INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('12', '2015-05-19', '15:15:00', '17:00:00');
 INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('13', '2015-05-19', '15:15:00', '17:00:00');
 INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('14', '2015-05-19', '15:15:00', '17:00:00');
 INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('15', '2015-05-19', '15:15:00', '17:00:00');
 INSERT INTO `Campus`.`RoomTime` (`Room_ID`, `Datum`, `StartTime`, `EndTime`) VALUES ('16', '2015-05-19', '15:15:00', '17:00:00');
+
 
 -- lägg till stats
 -- - - - - - - - - - - - - - - - - - - - - - - 1 - - - - - - - - - - - - - - - - - - - - - -
@@ -308,3 +311,9 @@ INSERT INTO `Campus`.`RoomStats` (`Room_ID`, `RoomStat`) VALUES ('5', 'I');
 INSERT INTO `Campus`.`RoomStats` (`Room_ID`, `RoomStat`) VALUES ('5', 'Jag');
 INSERT INTO `Campus`.`RoomStats` (`Room_ID`, `RoomStat`) VALUES ('5', 'Gillar');
 INSERT INTO `Campus`.`RoomStats` (`Room_ID`, `RoomStat`) VALUES ('5', 'Mat');
+
+-- - - - - - - - - - - - - - - - - - - - - - - 10 - - - - - - - - - - - - - - - - - - - - - -
+INSERT INTO `Campus`.`RoomStats` (`Room_ID`, `RoomStat`) VALUES ('10', 'Svarttavla');
+INSERT INTO `Campus`.`RoomStats` (`Room_ID`, `RoomStat`) VALUES ('10', 'OH');
+INSERT INTO `Campus`.`RoomStats` (`Room_ID`, `RoomStat`) VALUES ('10', 'HDMI-kabel');
+INSERT INTO `Campus`.`RoomStats` (`Room_ID`, `RoomStat`) VALUES ('10', 'VGA-kabel');

@@ -1,20 +1,6 @@
-<?php header('Content-type: text/javascript'); ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<style>
-		table {
-			width: 100%;
-			border-collapse: collapse;
-		}
-
-		table, td, th {
-			border: 1px solid black;
-			padding: 5px;
-		}
-
-		th {text-align: left;}
-	</style>
 </head>
 <body>
 	<?php
@@ -37,8 +23,11 @@
 
 // test
 	$i = 0;
+	echo 	"<div class='super-duper-mega-div'>";
 	while($row = mysqli_fetch_array($result)) {
 		//echo "<div class='room-container'>";
+		//echo 	"<script>console.log('innan forloopar', " .$i .")</script>";
+
 		$sqlStat = "SELECT RoomStat 
 					FROM RoomStats 
 					WHERE Room_ID =" . $row['Room_ID'];
@@ -57,21 +46,25 @@
 		echo		"</div>";
 		echo		"<div class='room-description hidden'>";
 		echo			"<p>Antal platser: " . $row['NumberOfPlaces'] . "</p>";
-		echo 			"<p>Stats: ";
-		while($row_a = mysqli_fetch_array($result_stat)) {
-			echo 		$row_a['RoomStat'] . ", ";
-		};
-		echo "<br>Bokade tider idag:";
-		while($row_time = mysqli_fetch_array($result_time)) {
-			echo 		"<br>" . $row_time['StartTime'] ." - " . $row_time['EndTime'];
-		};
-		echo			"</p>";
+	//	echo 			"<p>Stats: ";
+	//	while($row_a = mysqli_fetch_array($result_stat)) {
+	//		echo 		$row_a['RoomStat'] . ", ";
+	//		//echo 	"<script>console.log('i forloopar', " .$i .")</script>";
+	//	};
+	//	echo "<br>Bokade tider idag:";
+	//	while($row_time = mysqli_fetch_array($result_time)) {
+	//		echo 		"<br>" . $row_time['StartTime'] ." - " . $row_time['EndTime'];
+	//		//echo 	"<script>console.log('i forloopar 2', " .$i .")</script>";
+	//	};
+	//	echo			"</p>";
 		echo		"</div>";
 		echo 	"</div>";
 
 		//echo "</div>"
 		$i = $i + 1;
 	}
+		echo 	"</div>";
+	
 	
 // orginal 
 //	echo 	"<table>

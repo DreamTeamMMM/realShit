@@ -43,6 +43,7 @@
 	//print_r($result);
 	//echo '</pre>';
 	$i = 0;
+	echo 	"<div class='super-duper-mega-div'>";
 	while($row = mysqli_fetch_array($result)) {
 		//echo "<div class='room-container'>";
 		$sqlStat = "SELECT RoomStat FROM RoomStats WHERE Room_ID =" . $row['Room_ID'];
@@ -65,6 +66,7 @@
 		//echo "</div>"
 		$i = $i + 1;
 	}
+	echo 	"</div>";
 
 // test
 

@@ -67,7 +67,7 @@ function phpFunction(){
 							document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
 						}
 					}
-					xmlhttp.open("GET","searchRoom.php?q="+str,true);
+					xmlhttp.open("POST","searchRoom.php?q="+str,true);
 					xmlhttp.send();
 					//var javaScriptVar = "<?php echo $testvar; ?>";
 				}
@@ -160,7 +160,7 @@ function phpFunction(){
 		</div>
 		<div id="scene">
 			<div class="canvas-container">
-				<canvas id="nocanvas"></canvas>
+				<canvas id="canvas"></canvas>
 				<!--</div>-->
 				<div id="information" class="pull-left">
 					<button type="button" class="btn btn-default dropdown-toggle glyphicon glyphicon-search">
@@ -226,14 +226,14 @@ function phpFunction(){
 		var allRoomList = []
 		$('#txtHint').on('DOMNodeRemoved',function(){
 			allRoomList = [];
-			hideFreeRooms();
+		//	hideFreeRooms();
 		});
 		
 		$('#txtHint').on('DOMNodeInserted',function(){
 			if(freeRoomList !== undefined){
-				hideFreeRooms();
+			//	hideFreeRooms();
 			};	
-		//	console.log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+			console.log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
 			//console.log("DOMNodeInserted length", $(".emptyRooms").length)
 			if ($(".emptyRooms").length !== 0) {
 				//allChosenRooms = [];
@@ -241,7 +241,7 @@ function phpFunction(){
 				allRoomList = []
 				for (var i = 0; i < $('.emptyRooms').length; i++) {
 					var room = "#freeRoom"+i;
-					console.log("massa text hela tiden",(room), $(room).text())
+					//console.log("massa text hela tiden",(room), $(room).text())
 					allRoomList[i] = $(room).text();
 				};
 			}
@@ -277,8 +277,8 @@ function phpFunction(){
 		        	}
 		        }
 		        xmlhttp.open("GET","searchEmptyRoom.php",true);
+		      	xmlhttp.send();
 		      //  console.log(xmlhttp.open("GET","searchEmptyRoom.php",true);)
-		      xmlhttp.send();
 		       // console.log(xmlhttp.send();)
 		    //   	var ta = document.getElementsByClassName("testsomfan");
 			//	console.log("---------------getElementBy----------------------")

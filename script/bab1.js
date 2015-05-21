@@ -125,7 +125,7 @@ if (BABYLON.Engine.isSupported()) {
             freeRoomList = allRoomList;
             //console.log("hahahaha",freeRoomList);
             showFreeRooms();
-            console.log("freerooomlist", freeRoomList)
+            //console.log("freerooomlist", freeRoomList)
        // }                  
     }
 
