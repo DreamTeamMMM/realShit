@@ -111,9 +111,6 @@ function phpFunction(){
 							<button type="button" onclick="showEmptyRoom()" id="freeRoomsButton" class="btn btn-default" value="0">
 								Search Empty Room 
 							</button>
-							<button type="button" onclick="getLocation()" id="findMe" class="btn btn-default">
-								Find Me
-							</button>
 						</div>
 					</li>
 					Room information
