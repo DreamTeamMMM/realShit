@@ -1,17 +1,3 @@
-
-/*.navbar {
-	text-transform: uppercase;
-	padding-top: 10px;
-}
-.navbar li {
-	display: inline;
-	padding: 15px 10px;
-}*/
-
-/*#scene {
-	padding: 15px;
-}*/
-
 .presented-room-row .roomname-icon> p {
 	font-size: 20px;
 	margin: 0px;
@@ -64,8 +50,6 @@ html, body {
 	height: 100%;
 	width: 100%;
 	background-color:rgba(122,122,122,0.5);	
-	/*border: 2px solid darkred;
-	border-radius: 10px;*/
 	padding: 10px;
 	position: absolute;
 }
@@ -101,7 +85,6 @@ html, body {
 	border: 2px solid black;
 	margin: 5px;
 	padding: 5px;	
-	/*webkit-padding-start: 5px;*/
 }
 
 #information, #search {
@@ -118,17 +101,12 @@ html, body {
 	top:1%;
 	z-index: 2;
 }
-/*.canvas-container {
-	width: 80%;
-	height: 80%;
-}*/
 
 .pre-scrollable{
 	max-height:100%
 }
 
 #canvas { 
-	/*display:block; */
 	margin:1em auto;
 	border:1px solid black; 
 	width: 100%;
@@ -136,12 +114,8 @@ html, body {
 	padding: 0;
 	margin: 0;
 	position: absolute;
-	/*z-index: 1;*/
 }
 #nocanvas { 
-	/*display:block; */
-	/*margin:1em auto;
-	border:1px solid black; */
 	margin:1em auto;
 	border:1px solid black; 
 	width: 100%;
@@ -149,42 +123,4 @@ html, body {
 	padding: 0;
 	margin: 0;
 	position: absolute;
-	/*z-index: 1;*/
-}
-
-
-@media 	(max-width: 768px){ 
-	 /*.navbar {
-		text-transform: uppercase;
-		/*background-color: blue;*/
-		/*background-color: canvasToFullDisplay;*/
-	/*} 
-	.navbar li {
-		display: inline;
-		padding: 20px 20px;
-	}
-	#uu_logo {
-		height: 30%;
-		width: 30%;
-	}
-	body {
-		/*background-color: blue;
-	} */
-}
-@media (min-width: 769px){ 
-	/*.navbar {
-		text-transform: uppercase;
-		/*background-color: green;*/
-	/*}
-	.navbar li {
-		display: inline;
-		padding: 15px 10px;
-	}
-	#uu_logo {
-		height: 40%;
-		width: 40%;
-	}
-	body {
-		/*background-color: green;
-	}*/
 }

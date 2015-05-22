@@ -54,14 +54,12 @@ var main = function() {
 			$(this).children('.room-description').removeClass('hidden')
 			$(this).children('.roomname-icon').children('p').removeClass('glyphicon-triangle-right')
 			$(this).children('.roomname-icon').children('p').addClass('glyphicon-triangle-bottom')
-			//$(this).children('.roomname-icon').addClass('roomname-icon-bottom')
 
 
 		} else {
 			$(this).children('.room-description').addClass('hidden')
 			$(this).children('.roomname-icon').children('p').removeClass('glyphicon-triangle-bottom')
 			$(this).children('.roomname-icon').children('p').addClass('glyphicon-triangle-right')
-			//$(this).children('.roomname-icon').removeClass('roomname-icon-bottom')
 		}
 	});
 //------------------------------------------//
@@ -82,18 +80,9 @@ var main = function() {
         $('#jumbotron').animate({left: '0px'},200);
     });    
 
-//	$('.formular').click( function(){
-//		$('.formular').addClass('hidden')
-//		$('.login_box').removeClass('active_box')
-//		$('.login_box').addClass('hidden')
-//		$('.signup_box').removeClass('active_box')
-//		$('.signup_box').addClass('hidden')
-//	});
-	//navbarSize(windowWidth);
 	$(window).resize(function (){
 		windowWidth = $(window).width();
 		windowHeight = $(window).height();
-		//navbarSize(windowWidth);
 		centeringFormular('.active_box')
 
 	}
@@ -109,13 +98,9 @@ var centeringFormular = function (id) {
 
 var navbarSize = function (windowSize) {
 	if (windowSize <= 768){
-		//$('.navbar').css("background-color", "yellow");
-		//$('.navbar').addClass("test");
 		$('#right-menu').addClass('hidden');			
 		$('#right-menu-mobile').removeClass('hidden');
 	} else {
-		//$('.navbar').css("background-color", "red");
-		//$('.navbar').addClass("test");
 		$('#right-menu').removeClass('hidden');			
 		$('#right-menu-mobile').addClass('hidden');
 	};
@@ -123,13 +108,9 @@ var navbarSize = function (windowSize) {
 
 var resultDisplay = function (windowSize) {
 	if (windowSize <= 768){
-		//$('.navbar').css("background-color", "yellow");
-		//$('.navbar').addClass("test");
 		$('#right-menu').addClass('hidden');			
 		$('#right-menu-mobile').removeClass('hidden');
 	} else {
-		//$('.navbar').css("background-color", "red");
-		//$('.navbar').addClass("test");
 		$('#right-menu').removeClass('hidden');			
 		$('#right-menu-mobile').addClass('hidden');
 	};
