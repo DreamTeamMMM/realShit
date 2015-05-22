@@ -57,8 +57,10 @@ var pathFinder = function (start, end, visitedlist, possibleWay, allWay){
         //console.log("from = to");
         return [s.name, e.name];
     } else{
+        //console.log("FP: start= "+s.name+ "\nend= "+e.name);
     var toCompare = pathFinder(s,e,[],[],[]);
-    var size = 100;
+        //console.log("done")
+    var size = 500;
     var toReturn;
     for(var i=0;i<toCompare.length;i++){
         //console.log(toCompare[i]);
@@ -71,6 +73,7 @@ var pathFinder = function (start, end, visitedlist, possibleWay, allWay){
     }
  }
 
+
     var findNode = function(toFind){
         for(var i=0;i<helpPath.length;i++){
                     if(toFind === helpPath[i].name){
@@ -82,7 +85,7 @@ var pathFinder = function (start, end, visitedlist, possibleWay, allWay){
     var getNode = function(nodeList, scene){
         var meshList=[];
         for(var i=0;i<nodeList.length;i++){
-            meshList.push(scene.getMeshByName("K"+nodeList[i]));
+            meshList.push(scene.getMeshByName("K"+pos+""+nodeList[i]));
         }
         return meshList;
     }
@@ -90,7 +93,7 @@ var pathFinder = function (start, end, visitedlist, possibleWay, allWay){
     var matchNode = function(nodeList, scene){
         var meshList=[];
         for(var i=0;i<nodeList.length;i++){
-            meshList.push(scene.getMeshByName("K"+nodeList[i]).position);
+            meshList.push(scene.getMeshByName("K"+pos+""+nodeList[i]).position);
         }
         return meshList;
     }
