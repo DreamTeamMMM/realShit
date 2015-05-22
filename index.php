@@ -226,14 +226,16 @@ function phpFunction(){
 		var allRoomList = []
 		$('#txtHint').on('DOMNodeRemoved',function(){
 			allRoomList = [];
-		//	hideFreeRooms();
+			hideFreeRooms();
 		});
 		
 		$('#txtHint').on('DOMNodeInserted',function(){
+			
 			if(freeRoomList !== undefined){
-			//	hideFreeRooms();
+				hideFreeRooms();
 			};	
-			console.log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+			//console.log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+			console.log(freeRoomList)
 			//console.log("DOMNodeInserted length", $(".emptyRooms").length)
 			if ($(".emptyRooms").length !== 0) {
 				//allChosenRooms = [];
@@ -259,6 +261,7 @@ function phpFunction(){
 			//console.log("Lediga rum", allFreeRooms)
 			//console.log("Valda rum", allChosenRooms)
 			displayFreeRooms(scene);
+		
 		})
 	</script>
 	<script>
